@@ -18,4 +18,4 @@ main areas of expertise.
 
 ## Contact
 
-You can reach me at [you@example.com](mailto:you@example.com).
+You can reach me at [massimiliano.galli.95@gmail.com](mailto:massimiliano.galli.95@gmail.com).
