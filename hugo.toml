@@ -1,0 +1,57 @@
+baseURL = "https://maxgalli.github.io/"
+languageCode = "en"
+title = "Massimiliano Galli"
+theme = "hugo-coder"
+
+[pagination]
+pagerSize = 20
+
+[markup]
+[markup.highlight]
+noClasses = false
+
+[markup.goldmark]
+[markup.goldmark.renderer]
+unsafe = true
+
+[params]
+author = "Massimiliano Galli"
+description = "Massimiliano Galli's personal website"
+keywords = "physics,data analysis,software,portfolio"
+# Lines shown under the name on the landing page (placeholders)
+info = ["Physicist", "Your tagline here"]
+# Put a square picture at static/images/avatar.jpg and uncomment
+# avatarURL = "images/avatar.jpg"
+dateFormat = "January 2006"
+since = 2026
+# "auto" follows the visitor's system light/dark preference
+colorScheme = "auto"
+hideColorSchemeToggle = false
+
+[[params.social]]
+name = "GitHub"
+icon = "fa-brands fa-github fa-2x"
+weight = 1
+url = "https://github.com/maxgalli/"
+
+[[params.social]]
+name = "LinkedIn"
+icon = "fa-brands fa-linkedin fa-2x"
+weight = 2
+url = "https://www.linkedin.com/in/your-profile/"
+
+[[params.social]]
+name = "Email"
+icon = "fa-solid fa-envelope fa-2x"
+weight = 3
+url = "mailto:you@example.com"
+
+[[menu.main]]
+name = "About"
+weight = 1
+url = "about/"
+
+[[menu.main]]
+name = "Projects"
+weight = 2
+url = "projects/"
